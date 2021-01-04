@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color:orange;
 }
 .half-width{
@@ -17,18 +20,17 @@ h1{
 }
 section{
     height: 550px;
-    padding-bottom: 200px;
+    
 }
 .half-width img{
     width: 100%;
     height: 100%;
 }
-.half-width{
-    float: left;
-}
+
 .top-banner{
     background-image: url("web-portfollio/img/top-banner.png");
     background-repeat: no-repeat;
+    padding-bottom: 200px;
 }
 .button{
     text-decoration: none;
@@ -40,4 +42,41 @@ section{
     color: white;
 
 }
+.dream-area{
+    background-image: url("web-portfollio/img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 50px;
+}
+.exprience-area{
+    background-image: url("web-portfollio/img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-exprience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    background-color: white;
+}
+.first-border{
+    border-left:7px solid ;
+    border-image: linear-gradient(180deg ,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.second-border{
+    border-left:7px solid ;
+    border-image: linear-gradient(180deg ,blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    padding:10px;
+    color: white;
+}
+footer p{
+    color:white;
+}
+
+
 
